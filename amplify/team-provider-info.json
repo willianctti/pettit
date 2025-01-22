@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pettit-dev-778c9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::975049985466:role/amplify-pettit-dev-778c9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::975049985466:role/amplify-pettit-dev-778c9-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pettit-dev-778c9-deployment",
+      "UnauthRoleName": "amplify-pettit-dev-778c9-unauthRole",
+      "StackName": "amplify-pettit-dev-778c9",
+      "StackId": "arn:aws:cloudformation:us-east-1:975049985466:stack/amplify-pettit-dev-778c9/59af2ff0-d902-11ef-8278-12e2a468505f",
+      "AmplifyAppId": "d17twz3z1o7lvf"
+    },
+    "categories": {
+      "auth": {
+        "pettitce535ca1": {}
+      }
+    }
+  }
+}
