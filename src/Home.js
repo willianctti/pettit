@@ -56,12 +56,10 @@ const Home = () => {
 
     return (
         <div className="home-container">
-            {/* Menu Hambúrguer Mobile */}
             <button className="mobile-menu-button" onClick={() => setMenuOpen(true)}>
                 <FaBars />
             </button>
 
-            {/* Sidebar/Menu Lateral */}
             <div className={`sidebar ${menuOpen ? 'open' : ''}`}>
                 <div className="mobile-menu-header">
                     <div className="logo">
@@ -84,12 +82,10 @@ const Home = () => {
                 </nav>
             </div>
 
-            {/* Overlay para fechar o menu */}
             {menuOpen && (
                 <div className="mobile-menu-overlay" onClick={() => setMenuOpen(false)} />
             )}
 
-            {/* Feed Principal */}
             <div className="main-content">
                 <div className="feed-header">
                     <div className="feed-tabs">
@@ -102,7 +98,6 @@ const Home = () => {
                     </div>
                 </div>
 
-                {/* Área de Criar Post */}
                 <div className="create-post">
                     <img src="https://i.pravatar.cc/150?img=1" alt="User Avatar" className="user-avatar" />
                     <div className="post-input">
@@ -126,7 +121,6 @@ const Home = () => {
                     </div>
                 </div>
 
-                {/* Feed de Posts */}
                 <div className="posts-feed">
     {posts.map(post => (
         <div key={post.id} className="post">
@@ -152,7 +146,6 @@ const Home = () => {
 </div>
             </div>
 
-            {/* Sidebar Direita */}
             <div className="right-sidebar">
                 <div className="search-box">
                     <FaSearch className="search-icon" />
@@ -230,7 +223,6 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Botão de post móvel */}
             <button className="mobile-post-button">
                 <FaPlus />
             </button>

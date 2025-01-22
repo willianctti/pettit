@@ -8,7 +8,6 @@
     background-color: white;
 }
 
-/* Sidebar Styles */
 .sidebar {
     position: sticky;
     top: 0;
@@ -100,7 +99,6 @@
     background-color: #1a8cd8;
 }
 
-/* Main Content Styles */
 .main-content {
     border-right: 1px solid #e1e8ed;
     min-height: 100vh;
@@ -251,7 +249,6 @@
     background-color: #1a8cd8;
 }
 
-/* Posts Feed Styles */
 .posts-feed {
     border-left: 1px solid #eff3f4;
     border-right: 1px solid #eff3f4;
@@ -340,7 +337,6 @@
     background-color: rgba(29, 161, 242, 0.1);
 }
 
-/* Right Sidebar Styles */
 .right-sidebar {
     position: sticky;
     top: 0;
@@ -509,7 +505,6 @@
     background-color: #272c30;
 }
 
-/* Estilos do Menu Mobile */
 .mobile-menu-button {
     display: none;
     position: fixed;
@@ -552,7 +547,6 @@
     z-index: 1000;
 }
 
-/* Media Queries para Responsividade */
 @media screen and (max-width: 1020px) {
     .home-container {
         grid-template-columns: 88px 1fr 290px;
@@ -579,7 +573,7 @@
 @media screen and (max-width: 688px) {
     .home-container {
         grid-template-columns: 1fr;
-        padding-bottom: 60px; /* Espaço para o menu fixo */
+        padding-bottom: 60px; 
     }
 
     .main-content {
@@ -631,7 +625,6 @@
         display: none;
     }
 
-    /* Ajustes no feed principal */
     .feed-header {
         position: sticky;
         top: 0;
@@ -651,7 +644,6 @@
         border-bottom: 1px solid #eff3f4;
     }
 
-    /* Botão flutuante de novo post */
     .mobile-post-button {
         display: flex;
         position: fixed;
@@ -675,7 +667,6 @@
         background-color: #1a8cd8;
     }
 
-    /* Ajustes nos posts */
     .post-actions {
         justify-content: space-around;
         padding: 0 8px;
@@ -786,7 +777,6 @@
     }
 }
 
-/* Ajustes para telas muito pequenas */
 @media screen and (max-width: 420px) {
     .create-post {
         padding: 12px;
